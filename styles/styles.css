@@ -1,0 +1,73 @@
+body * {
+    font-family: 'Jost', sans-serif;
+}
+
+header {
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    margin-top: 40px;
+}
+
+header > img {
+    height: 20px;
+}
+
+nav {
+    float: right;
+}
+
+nav * {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+main {
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2);
+    margin-top: 80px;
+}
+
+main * {
+    display: inline-block;
+}
+
+.left-side {
+    width: 280px;
+    margin-top: 20px;
+}
+
+.image {
+    width: 260px;
+}
+
+.right-side {
+    width: 510px;
+    text-align: center;
+    vertical-align: top;
+    margin-top: 100px;
+}
+
+.big-text {
+    font-size: 42px;
+    line-height: 40px;
+    letter-spacing: 10px;
+    font-weight: 600;
+}
+
+.small-text {
+    font-size: 16px;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 4px;
+    color: grey;
+}
+
+a:hover {
+    color: rgb(175, 170, 170);
+  }
+
+
